@@ -1,9 +1,9 @@
-import Header from './Header';
+import HeaderOnly from './Header';
 
 function DefaultLayout({ children }) {
     return (
         <div>
-            <Header />
+            <HeaderOnly />
             <div className="container">
                 <div className="content">{children}</div>
             </div>
